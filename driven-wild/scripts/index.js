@@ -2411,8 +2411,6 @@ function de() {
 }
 Gd = Ye.ghost || [],
 (Ye.ghostVersion || 0) < 5 && (Gd = []),
-console.log("Driven Wild v1.104 by Frank Force"),
-console.log("www.frankforce.com 🚗🌴"),
 (Zd = new Je).Vb || (Zd = 0),
 jd = new Vc("./assets/song1.mp3"),
 kd = new Vc("./assets/song2.mp3"),
@@ -2540,7 +2538,7 @@ Ma.style.cssText = fb.style.cssText = "position:absolute;top:50%;left:50%;transf
     }
     ,
     t.crossOrigin = 'anonymous'
-    t.src = "https://media.animerealms.org/image/AgACAgUAAx0EboWBewACjrVodehQqiO8H3CWeEir3WCNY5-7CgACrMoxG-mHsVfA1wHsv63D-QEAAwIAA3cAAzYE"
+    t.src = "./assets/texture.png"
 }
 ) : new Promise(e => {
     qc(),
